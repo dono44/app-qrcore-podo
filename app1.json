@@ -1,0 +1,34 @@
+
+{
+    "expo": { 
+      "name": "dll2020-alpha-0.0.1",
+      "slug": "dll200-alpha-0-0-1",
+      "privacy": "public",
+      "sdkVersion": "32.0.0",
+      "platforms":  "android" ,
+      "version": "2.0.36",
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#FFFFFF"
+      },
+      "updates": {
+        "fallbackToCacheTimeout": 0
+      },
+      "assetBundlePatterns": [ "**/*" ],
+      "ios": {
+        "supportsTablet": true,
+        "bundleIdentifier": "gl.js.app",
+        "infoPlist": {
+          "NSCameraUsageDescription": "This app uses the camera to let user put a photo in his profile page."
+        }
+      },
+      "android": {
+        "package": "gl.js.app",
+        "permissions": [ "CAMERA", "WRITE_EXTERNAL_STORAGE", "CAMERA_ROLL" ],
+        "versionCode": 36
+      }
+    }
+  }

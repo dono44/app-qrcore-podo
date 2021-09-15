@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "dll2020-aplha-0.1.2",
+    "slug": "dll2020",
+    "version": "0.1.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "ios": {
+        "bundleIdentifier": "com.yourcompany.yourappname",
+        "buildNumber": "1.0.0"
+      },
+      "android": {
+        "package": "com.dono44.test71",
+        "versionCode": 1
+      }
+    },
+    "android": {
+      "package": "com.dono44.dll2020"
+    }
+  }
+}
